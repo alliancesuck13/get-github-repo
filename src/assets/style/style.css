@@ -10,7 +10,8 @@ body {
   line-height: 23px;
   color: black;
 
-  background-color: #C4C4C4;
+  background: linear-gradient(#fed6af ,#fff7e2 , #ffffee) no-repeat;
+  background-color: #ffffee;
 }
 
 p {
@@ -19,6 +20,10 @@ p {
 
 li {
   list-style: none;
+}
+
+b {
+  color: #cc1105;
 }
 
 .main {
@@ -33,9 +38,23 @@ li {
   margin-top: 25vh;
 }
 
+.title {
+  margin-right: auto;
+  margin-left: auto;
+  color: #117743;
+}
+
 .search {
   margin-left: auto;
   margin-right: auto;
+}
+
+.list-wrapper {
+  margin-top: 20%;
+}
+
+.list {
+  padding: 1px;
 }
 
 .list__item {
@@ -43,6 +62,12 @@ li {
   width: 400px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 2px;
+  
+  background-color: #f0e0d6;
+  padding: 2px 15px;
+
+  border: 1px solid black;
 } 
 
 .repository-info {
@@ -52,8 +77,18 @@ li {
 
 .remove-button {
   margin-left: auto;
+  
 }
 
-.remove-button::before {
-  content: src('../svg/close.svg');
+.remove-button::after {
+  content: url("../svg/close.svg");
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-45px);
+  width: 34px;
+  height: 39px;
+}
+
+.remove-button:hover {
+  transform: scale(1.1);
 }
