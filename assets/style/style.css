@@ -50,6 +50,7 @@ b {
 .search__input {
   -webkit-appearance: none;
   appearance: none;
+  background-color: #fff;
   border-radius: 0;
   margin: 0;
   width: 224px;
