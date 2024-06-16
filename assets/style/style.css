@@ -8,7 +8,7 @@ body {
   line-height: 23px;
   color: black;
 
-  background: linear-gradient(#fed6af ,#fff7e2 , #ffffee) no-repeat;
+  background: linear-gradient(#fed6af, #fff7e2, #ffffee) no-repeat;
   background-color: #ffffee;
 }
 
@@ -48,6 +48,8 @@ b {
 }
 
 .search__input {
+  -webkit-appearance: none;
+  appearance: none;
   margin: 0;
   width: 224px;
 }
@@ -97,12 +99,12 @@ b {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 2px;
-  
+
   background-color: #ffccaa;
   padding: 2px 15px;
 
   border: 1px solid black;
-} 
+}
 
 .repository-info {
   display: flex;
@@ -111,7 +113,7 @@ b {
 
 .remove-button {
   margin-left: auto;
-  
+
 }
 
 .remove-button::after {
