@@ -49,6 +49,7 @@ b {
 
 .search__input {
   margin: 0;
+  width: 224px;
 }
 
 .autocomplite-box {
@@ -57,7 +58,13 @@ b {
   border: 1px solid #8f8f9d;
   border-top: none;
   position: absolute;
-  width: 225px;
+  width: 222px;
+}
+
+.nothing-found {
+  font-size: 14px;
+  margin-left: 27%;
+  margin-right: auto;
 }
 
 .autocomplite-list {
